@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/hello", "dest": "/api/hello.js" },
+    { "src": "/api/notion/(.*)", "dest": "/api/notion.js" }
+  ]
+}
